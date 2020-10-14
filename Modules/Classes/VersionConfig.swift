@@ -67,7 +67,7 @@ class VersionUpdatePopView: UIView {
         }
         
         let topImageView = UIImageView()
-        topImageView.image = UIImage(named: "versionupdate_topbg")
+        topImageView.image = UIImage(named: "versionupdate_topbg", VersionUpdatePopView.self)
         bgView.addSubview(topImageView)
         topImageView.snp.makeConstraints { (make) in
             make.top.left.right.equalToSuperview()
